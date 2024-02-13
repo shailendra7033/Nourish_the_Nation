@@ -1,9 +1,13 @@
-import Hero from "../components/Hero"
+ import Hero from "../components/Hero"
+
 const app=()=>{
     return(
-
-        <Hero/>
+            <>
+            <br/>
+            <Hero/>
+            {/* <AddFood/> */}
+            </>
     )
-    
 }
+
 export default app;
